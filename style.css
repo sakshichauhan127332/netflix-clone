@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+}
+.top-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: red;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 50px;
+}
+
+.right {
+    padding: 0px 50px;
+    display: inline;
+}
+
+.dropdown {
+    background-color: rgb(73, 69, 69);
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+}
+
+.sign-in {
+    background-color: rgb(216, 15, 15);
+    color: white;
+    padding: 7px 10px;
+    border: 2px solid rgb(216, 15, 15);
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.heading {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.heading-2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background-color: #242323;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color: white;
+}
+
+.start {
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0px 300px;
+
+}
+
+.container {
+    height: 100vh;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+
+}
+
+hr {
+    height: 5px;
+    background-color: gray;
+    border: 1px solid gray;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+.second-page {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.third-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    background-color: black;
+}
+.last-page {
+    background-color: black;
+    color: white;
+    
+}
+h2 {
+    color: white;
+}
