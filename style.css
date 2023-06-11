@@ -96,9 +96,9 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    text-align: center; */
+    text-align: center;
 }
 
 .middle {
@@ -156,6 +156,7 @@ h3 {
     color: white;
     height: 50px;
     width: 100%;
+    text-decoration: none;
 }
 h2 {
     color: white;
@@ -170,6 +171,7 @@ div
     left: 50%;
     bottom: 30%;
     transform: translate(-50%, -50%);
+
 }
 
 .centered-div-2 {
@@ -236,6 +238,7 @@ div
     font-size: 16px;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 .checkbox {
     position: absolute;
@@ -285,4 +288,15 @@ div
     font-size: 13px;
     color: rgb(231, 211, 211);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.container-2 {
+    background-color: black;
+    padding: 14%;
+}
+.forth-page {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-weight: normal;
+    
 }
