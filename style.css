@@ -1,6 +1,46 @@
 body {
     margin: 0px 0px;
+    background-color: black;
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg); */
 }
+
+
+/* .login-container {
+
+    height: 100vh;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    margin: 0px;
+    position: absolute;
+    top: 0;
+}
+
+.box-3 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+
 .top-head {
     display: flex;
     justify-content: space-around;
@@ -9,11 +49,11 @@ body {
 
 .left {
     display: flex;
-    align-items: center;
+    align-items: ;
 }
 
 .logo {
-    color: red;
+    color: rgb(233, 12, 12);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-size: 50px;
     display: flex;
@@ -43,6 +83,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
 
 }
 
@@ -52,28 +93,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .heading-2 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: whitesmoke;
     display: flex;
+
+    .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 60px;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
     justify-content: center;
     align-items: center;
 }
 
-.email {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 60px;
-    background-color: transparent;
-    border: 1px solid white;
-}
 
 .box {
     display: flex;
@@ -96,9 +139,9 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: inline-block;
+    /* justify-content: center;
+    text-align: center; */
 }
 
 .middle {
@@ -110,18 +153,22 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
-
+    margin: 0px;
+    position: absolute;
+    top: 0;
 }
 
 hr {
     height: 5px;
-    background-color: gray;
-    border: 1px solid gray;
+    background-color: #232323;
+    border: 1px solid #232323;
     /* margin-left: 20px;
     margin-right: 20px; */
 }
+
 .second-page {
     display: flex;
     justify-content: space-around;
@@ -151,6 +198,7 @@ h3 {
     margin: 0px 0px;
     background-color: black;
 }
+
 .last-page {
     background-color: black;
     color: white;
@@ -158,11 +206,12 @@ h3 {
     width: 100%;
     text-decoration: none;
 }
+
 h2 {
     color: white;
 }
-div
-.centered-div {
+
+div .centered-div {
     border: 1px solid rgb(68, 67, 67);
     height: 550px;
     width: 450px;
@@ -184,12 +233,14 @@ div
     bottom: 30%;
     transform: translate(-50%, -50%);
 }
+
 .top {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     text-align: start;
     padding: 50px;
     font-size: 32px;
 }
+
 .email {
     background-color: rgb(70, 68, 68);
     height: 40px;
@@ -206,6 +257,7 @@ div
     font-size: 16px;
     color: white;
 }
+
 .password {
     background-color: rgb(70, 68, 68);
     height: 40px;
@@ -222,6 +274,7 @@ div
     font-size: 16px;
     color: white;
 }
+
 .signin-2 {
     background-color: rgb(231, 24, 24);
     height: 52px;
@@ -240,6 +293,7 @@ div
     color: white;
     text-decoration: none;
 }
+
 .checkbox {
     position: absolute;
     top: 48%;
@@ -247,56 +301,76 @@ div
     bottom: 5%;
 
 }
+
 .bottom {
     position: absolute;
     top: 67%;
     left: 21%;
-    bottom: 5%; 
+    bottom: 5%;
     color: rgb(219, 207, 207);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 }
+
 .bottom-left {
     position: absolute;
     top: 67%;
     left: 70%;
-    bottom: 5%; 
+    bottom: 5%;
     color: rgb(253, 246, 246);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 }
+
 .last {
     position: absolute;
     top: 80%;
     left: 16%;
-    bottom: 5%; 
+    bottom: 5%;
     font-size: 15px;
     color: rgb(231, 211, 211);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
+
 .bold {
     font-weight: bold;
     color: white;
     font-size: 15px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
+
 .last-line {
     position: absolute;
     top: 85%;
     left: 16%;
-    bottom: 5%; 
+    bottom: 5%;
     font-size: 13px;
     color: rgb(231, 211, 211);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
+
 .container-2 {
     background-color: black;
     padding: 14%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
+
 .forth-page {
     display: flex;
     justify-content: center;
     align-content: flex-start;
     font-weight: normal;
-    
+}
+.manage-box {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 120px;
+    width: 900px;
+}
+.img-container {
+    height: 150px;
+    border-radius: 5px;
 }

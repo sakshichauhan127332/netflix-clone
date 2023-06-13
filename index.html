@@ -9,38 +9,36 @@
 </head>
 
 <body>
-    <form>
-        <div class="container">
-            <header class="top-head">
-                <div class="left">
-                    <h1 class="logo">NETFLIX</h1>
-                </div>
-                <div class="right">
-                    <select class="dropdown">
-                        <option value="option1" selected>Engilsh</option>
-                        <option value="option2"></option>
-                    </select>
-                    <a href="signin.html" <button type="sign In" class="sign-in">
-                        Sign In
-                        </button>
-                    </a>
-                </div>
-            </header>
-            <h1 class="heading">Unlimited movies, TV shows and more</h1>
-            <h2 class="heading-2">Watch anywhere. Cancel anytime.</h2>
-            <p class="heading-2">Ready to watch? Enter your email to create or restart your membership.</p>
-            <div class="middle">
-                <div class="box">
-                    <input name="Email Address" type="email" class="box">
-
-                </div>
-                <a href="login.html" <button type="button" class="start">
-                    GET STARTED>
-                    </button>
-                </a>
+    <div class="background">
+        <header class="top-head">
+            <div class="right">
+                <h1 class="logo">NETFLIX</h1>
             </div>
+            <div class="left">
+                <select id="dropdown" class="dropdown">
+                    <option>English</option>
+                </select>
+
+                <a href="signin.html">
+                    <button class="sign-in">Sign In</button>
+                  </a>
+            </div>
+        </header>
+        <div>
+            <h1>Unlimited movies, TV shows and more
+            </h1>
+            <p class="heading">Watch anywhere. Cancel anytime.
+            </p>
+            <p class="heading-2">Ready to watch? Enter your email to create or restart your membership.
+            </p>
         </div>
-    </form>
+        <div class="middle">
+            <input type="email" class="box" placeholder="Email">
+            <button class="start">Get Started ></button>
+        </div>
+    </div>
+    <div>
+    </div>
     <div>
         <hr>
         <div class="second-page">
@@ -75,6 +73,7 @@
         <div>
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
                 alt="photo">
+    
         </div>
     </div>
     <hr>
@@ -100,6 +99,8 @@
             </p>
         </footer>
     </div>
+    <div class="overlay"></div>
+
 </body>
 
 </html>
