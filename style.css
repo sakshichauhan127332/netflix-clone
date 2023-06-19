@@ -352,9 +352,9 @@ div .centered-div {
 .container-2 {
     background-color: black;
     padding: 14%;
-    /* display: flex;
+    display: block;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .forth-page {
@@ -363,14 +363,45 @@ div .centered-div {
     align-content: flex-start;
     font-weight: normal;
 }
+
 .manage-box {
     display: flex;
     justify-content: space-evenly;
     border: 1px solid black;
-    height: 120px;
+    height: 150px;
     width: 900px;
 }
+
 .img-container {
     height: 150px;
     border-radius: 5px;
+}
+
+.names {
+    color: rgb(163, 161, 161);
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin: 1px;
+}
+.manage-button {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: -100px;
+    margin-left: -80px;
+    color: gray;
+}
+.manage-profile {
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
