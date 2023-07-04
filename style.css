@@ -14,7 +14,7 @@ body {
     align-items: center;
 } */
 .background {
-    height: 100%;
+    height: 700px;
     width: 100%;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     margin: 0px;
@@ -31,7 +31,7 @@ body {
     align-items: center;
 }
 
-/* .overlay {
+.overlay {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     position: absolute;
@@ -39,7 +39,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-} */
+}
 
 .top-head {
     display: flex;
@@ -138,6 +138,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    margin: 10px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     display: inline-block;
     /* justify-content: center;
@@ -172,7 +173,8 @@ hr {
 .second-page {
     display: flex;
     justify-content: space-around;
-    margin: 0px 0px;
+    /* margin: 100px 100px; */
+    margin-top: 750px;
     background-color: black;
 }
 
@@ -404,4 +406,35 @@ div .centered-div {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.container-3 {
+background-color: rgb(0, 0, 0);
+}
+.top-head-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+.logo-2 {
+    color: rgb(219, 43, 43);
+    font-size: 40px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.heading-bar {
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.search-bar {
+    /* background-color: transparent;
+    border: transparent; */
+    height: 50px;
+    width: 50px;
 }
