@@ -427,7 +427,7 @@ div .centered-div {
     color: red;
     font-weight: bold;
     font-size: 32px;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 25px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
@@ -448,64 +448,46 @@ div .centered-div {
 
 .video {
     height: 200px;
-    width: 99.80%;
+    width: calc(100% - 100px);
     background-color: #141414;
     margin-left: 30px;
     margin-right: 30px;
+    display: flex;
+    gap: 16px;
+
+    
 }
 
 .list-1 {
-    position: absolute;
-    top: 130px;
-    left: 80px;
+    margin-left: 48px;
+    
 
 }
-
-.list-2 {
-    position: absolute;
-    top: 130px;
-    left: 400px;
-}
-
-.list-3 {
-    position: absolute;
-    top: 130px;
-    left: 720px;
-}
-
-.list-4 {
-    position: absolute;
-    top: 130px;
-    left: 1040px;
-}
-
 .head-2 {
     font-size: 18px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-weight: bold;
-    margin-top: -20px;
+    margin-top: 20px;
     margin-left: 80px;
 }
-
-.list-5 {
-    position: absolute;
-    left: 80px;
-    top: 350px;
+.head-3 {
+    font-size: 18px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;  
+    margin-left: 80px;
+    color: white;
+}
+.head-4 {
+    font-size: 18px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;  
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 14px;
 }
 
-.list-6 {
-    position: absolute;
-    top: 350px;
-    left: 400px;
-}
-
-.list-7 {
-    position: absolute;
-    top: 350px;
-    left: 720px;
-}
-.list-8 {
-    position: absolute;
-    top: 350px;
-    left: 1040px;
+.thumbnail-img {
+    height: 170px;
+    object-fit: cover;
 }
