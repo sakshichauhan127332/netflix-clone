@@ -436,6 +436,9 @@ div .centered-div {
     color: white;
     margin-left: 20px;
     margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+gap: 20px;
 }
 
 .head {
